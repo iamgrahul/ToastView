@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5B92CC01AEBFF6400847713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B92CBF1AEBFF6400847713 /* main.m */; };
+		D5B92CC31AEBFF6400847713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B92CC21AEBFF6400847713 /* AppDelegate.m */; };
+		D5B92CC61AEBFF6400847713 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B92CC51AEBFF6400847713 /* ViewController.m */; };
+		D5B92CC91AEBFF6400847713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B92CC71AEBFF6400847713 /* Main.storyboard */; };
+		D5B92CCB1AEBFF6400847713 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B92CCA1AEBFF6400847713 /* Images.xcassets */; };
+		D5B92CCE1AEBFF6400847713 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B92CCC1AEBFF6400847713 /* LaunchScreen.xib */; };
+		D5B92CDA1AEBFF6400847713 /* ToastViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B92CD91AEBFF6400847713 /* ToastViewAppTests.m */; };
+		D5C61A9E1AED317400B32E17 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C61A9C1AED317400B32E17 /* ToastView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B92CD41AEBFF6400847713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B92CB21AEBFF6400847713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B92CB91AEBFF6400847713;
+			remoteInfo = ToastViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5B92CBA1AEBFF6400847713 /* ToastViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B92CBE1AEBFF6400847713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B92CBF1AEBFF6400847713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5B92CC11AEBFF6400847713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5B92CC21AEBFF6400847713 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5B92CC41AEBFF6400847713 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5B92CC51AEBFF6400847713 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5B92CC81AEBFF6400847713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5B92CCA1AEBFF6400847713 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5B92CCD1AEBFF6400847713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D5B92CD31AEBFF6400847713 /* ToastViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B92CD81AEBFF6400847713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B92CD91AEBFF6400847713 /* ToastViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastViewAppTests.m; sourceTree = "<group>"; };
+		D5C61A9B1AED317400B32E17 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		D5C61A9C1AED317400B32E17 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B92CB71AEBFF6400847713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B92CD01AEBFF6400847713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5B92CB11AEBFF6400847713 = {
+			isa = PBXGroup;
+			children = (
+				D5B92CBC1AEBFF6400847713 /* ToastViewApp */,
+				D5B92CD61AEBFF6400847713 /* ToastViewAppTests */,
+				D5B92CBB1AEBFF6400847713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B92CBB1AEBFF6400847713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B92CBA1AEBFF6400847713 /* ToastViewApp.app */,
+				D5B92CD31AEBFF6400847713 /* ToastViewAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B92CBC1AEBFF6400847713 /* ToastViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				D5C61A981AED317400B32E17 /* Toast */,
+				D5B92CC11AEBFF6400847713 /* AppDelegate.h */,
+				D5B92CC21AEBFF6400847713 /* AppDelegate.m */,
+				D5B92CC41AEBFF6400847713 /* ViewController.h */,
+				D5B92CC51AEBFF6400847713 /* ViewController.m */,
+				D5B92CC71AEBFF6400847713 /* Main.storyboard */,
+				D5B92CCA1AEBFF6400847713 /* Images.xcassets */,
+				D5B92CCC1AEBFF6400847713 /* LaunchScreen.xib */,
+				D5B92CBD1AEBFF6400847713 /* Supporting Files */,
+			);
+			path = ToastViewApp;
+			sourceTree = "<group>";
+		};
+		D5B92CBD1AEBFF6400847713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5B92CBE1AEBFF6400847713 /* Info.plist */,
+				D5B92CBF1AEBFF6400847713 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5B92CD61AEBFF6400847713 /* ToastViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B92CD91AEBFF6400847713 /* ToastViewAppTests.m */,
+				D5B92CD71AEBFF6400847713 /* Supporting Files */,
+			);
+			path = ToastViewAppTests;
+			sourceTree = "<group>";
+		};
+		D5B92CD71AEBFF6400847713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5B92CD81AEBFF6400847713 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5C61A981AED317400B32E17 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				D5C61A9B1AED317400B32E17 /* ToastView.h */,
+				D5C61A9C1AED317400B32E17 /* ToastView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5B92CB91AEBFF6400847713 /* ToastViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B92CDD1AEBFF6400847713 /* Build configuration list for PBXNativeTarget "ToastViewApp" */;
+			buildPhases = (
+				D5B92CB61AEBFF6400847713 /* Sources */,
+				D5B92CB71AEBFF6400847713 /* Frameworks */,
+				D5B92CB81AEBFF6400847713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToastViewApp;
+			productName = ToastViewApp;
+			productReference = D5B92CBA1AEBFF6400847713 /* ToastViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5B92CD21AEBFF6400847713 /* ToastViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B92CE01AEBFF6400847713 /* Build configuration list for PBXNativeTarget "ToastViewAppTests" */;
+			buildPhases = (
+				D5B92CCF1AEBFF6400847713 /* Sources */,
+				D5B92CD01AEBFF6400847713 /* Frameworks */,
+				D5B92CD11AEBFF6400847713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B92CD51AEBFF6400847713 /* PBXTargetDependency */,
+			);
+			name = ToastViewAppTests;
+			productName = ToastViewAppTests;
+			productReference = D5B92CD31AEBFF6400847713 /* ToastViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B92CB21AEBFF6400847713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "iSync India";
+				TargetAttributes = {
+					D5B92CB91AEBFF6400847713 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D5B92CD21AEBFF6400847713 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D5B92CB91AEBFF6400847713;
+					};
+				};
+			};
+			buildConfigurationList = D5B92CB51AEBFF6400847713 /* Build configuration list for PBXProject "ToastViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5B92CB11AEBFF6400847713;
+			productRefGroup = D5B92CBB1AEBFF6400847713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B92CB91AEBFF6400847713 /* ToastViewApp */,
+				D5B92CD21AEBFF6400847713 /* ToastViewAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5B92CB81AEBFF6400847713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B92CC91AEBFF6400847713 /* Main.storyboard in Resources */,
+				D5B92CCE1AEBFF6400847713 /* LaunchScreen.xib in Resources */,
+				D5B92CCB1AEBFF6400847713 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B92CD11AEBFF6400847713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B92CB61AEBFF6400847713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B92CC61AEBFF6400847713 /* ViewController.m in Sources */,
+				D5B92CC31AEBFF6400847713 /* AppDelegate.m in Sources */,
+				D5B92CC01AEBFF6400847713 /* main.m in Sources */,
+				D5C61A9E1AED317400B32E17 /* ToastView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B92CCF1AEBFF6400847713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B92CDA1AEBFF6400847713 /* ToastViewAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5B92CD51AEBFF6400847713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B92CB91AEBFF6400847713 /* ToastViewApp */;
+			targetProxy = D5B92CD41AEBFF6400847713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5B92CC71AEBFF6400847713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B92CC81AEBFF6400847713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5B92CCC1AEBFF6400847713 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B92CCD1AEBFF6400847713 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5B92CDB1AEBFF6400847713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B92CDC1AEBFF6400847713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5B92CDE1AEBFF6400847713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToastViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5B92CDF1AEBFF6400847713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToastViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5B92CE11AEBFF6400847713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToastViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToastViewApp.app/ToastViewApp";
+			};
+			name = Debug;
+		};
+		D5B92CE21AEBFF6400847713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToastViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToastViewApp.app/ToastViewApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B92CB51AEBFF6400847713 /* Build configuration list for PBXProject "ToastViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B92CDB1AEBFF6400847713 /* Debug */,
+				D5B92CDC1AEBFF6400847713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B92CDD1AEBFF6400847713 /* Build configuration list for PBXNativeTarget "ToastViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B92CDE1AEBFF6400847713 /* Debug */,
+				D5B92CDF1AEBFF6400847713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B92CE01AEBFF6400847713 /* Build configuration list for PBXNativeTarget "ToastViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B92CE11AEBFF6400847713 /* Debug */,
+				D5B92CE21AEBFF6400847713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B92CB21AEBFF6400847713 /* Project object */;
+}

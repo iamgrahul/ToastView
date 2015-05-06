@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68G-dv-tTO">
+                                <rect key="frame" x="200" y="250" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.70829899326734336" green="1" blue="0.70566517353471492" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Vp1-vl-uSt"/>
+                                    <constraint firstAttribute="height" constant="50" id="ilS-Wa-sc3"/>
+                                </constraints>
+                                <state key="normal" title="Show Toast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showToast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B2S-Ny-Pv8"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type Text To Show In Toast" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K4l-Jr-AK1">
+                                <rect key="frame" x="50" y="136" width="500" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="M9Y-VQ-jjQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="6Ft-Xl-IUe"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="K4l-Jr-AK1" secondAttribute="trailing" constant="50" id="DGd-Rj-gWn"/>
+                            <constraint firstItem="K4l-Jr-AK1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="QRJ-aV-aOt"/>
+                            <constraint firstItem="K4l-Jr-AK1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="116" id="bQQ-E1-v4E"/>
+                            <constraint firstItem="68G-dv-tTO" firstAttribute="top" secondItem="K4l-Jr-AK1" secondAttribute="bottom" constant="64" id="cEK-kc-pEi"/>
+                            <constraint firstAttribute="centerX" secondItem="68G-dv-tTO" secondAttribute="centerX" id="fLo-wb-dE8"/>
+                            <constraint firstAttribute="centerX" secondItem="K4l-Jr-AK1" secondAttribute="centerX" id="jDE-lf-G0x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="K4l-Jr-AK1" id="Zpe-hn-RNs"/>
+                        <outlet property="toastButton" destination="68G-dv-tTO" id="bEu-mG-zmJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
